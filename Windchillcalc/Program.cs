@@ -15,6 +15,7 @@ namespace Laboration_2
             {
                 Console.Clear();
                 Console.WriteLine("Välkommen till WCT kalkylatorn!");
+                Console.WriteLine("OBS! programmet fungerar bara för temperaturer under 10 grader Celsius och vindhastigheter över 4,8 km/h");
                 Console.WriteLine();
 
                 Console.WriteLine("Välj mellan följande alternativ (svara med 1 eller 2)");
@@ -79,4 +80,5 @@ namespace Laboration_2
             
         }
     }
+
 }
